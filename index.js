@@ -28,6 +28,7 @@ else {
 
 //Arreglos
 var arr = ['Nom', "Apell", num];
+console.log(arr[1]);
 
 //////////////////////////////////////////////
 
@@ -42,10 +43,21 @@ var obj = {
 //////////////////////////////////////////////
 
 //Funciones
-var func = Function();
+function saludar() {
+    alert('Hola')
+}
+saludar();
 
+function suma(num1, num2) {
+    var result = num1 + num2;
+    console.log(result);
+    return result;
+}
 
-//alert(nombre);
+suma(22, 23);
+
+///////////////////////////////////////////////
+
 console.log(operacion)
 console.log(text)
 console.log(arr)
